@@ -78,8 +78,8 @@ with col_left:
         """, unsafe_allow_html=True)
 
     st.link_button(
-        " Visitar Site do genshim",
-        "https://genshin.hoyoverse.com/pt/home"
+        " Visitar Site do leticia alexandre",
+        "https://sites.google.com/academico.ifpb.edu.br/leticiaalexandre2informatica/in%C3%ADcio"
     )
 
 # WHATSAPP
