@@ -45,7 +45,7 @@ with col_left:
 
     st.markdown("""
     <h1 style="color:#222;">
-    Rayane
+    Letícia
     </h1>
     """, unsafe_allow_html=True)
 
@@ -79,7 +79,7 @@ with col_left:
 
     st.link_button(
         " Visitar Site do genshim",
-        "https://www.netflix.com/br/"
+        "https://genshin.hoyoverse.com/pt/home"
     )
 
 # WHATSAPP
