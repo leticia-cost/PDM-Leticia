@@ -13,7 +13,7 @@ def get_base64_image(path):
     return None
 
 # IMAGENS
-img_base64 = get_base64_image("genshim.png.jpg")
+img_base64 = get_base64_image("netflix.png")
 zap_base64 = get_base64_image("whatsapp.png")
 
 # TOPO
@@ -24,7 +24,7 @@ with col2:
     if img_base64:
         st.markdown(f"""
         <div style="text-align:center; margin-bottom:40px;">
-            <a href="https://genshin.hoyoverse.com/pt/home" target="_blank">
+            <a href="https://www.netflix.com/br/" target="_blank">
                 <img src="data:image/png;base64,{img_base64}"
                      width="350"
                      style="
@@ -45,7 +45,7 @@ with col_left:
 
     st.markdown("""
     <h1 style="color:#222;">
-    Letícia
+    Rayane
     </h1>
     """, unsafe_allow_html=True)
 
@@ -54,8 +54,8 @@ with col_left:
     # FOTO PERFIL
     with sub1:
 
-        if os.path.exists("let.png"):
-            st.image("let.png", width=250)
+        if os.path.exists("foto 88.png"):
+            st.image("foto 88.png", width=250)
 
     # TEXTO
     with sub2:
@@ -68,18 +68,17 @@ with col_left:
             margin-top:20px;
         ">
 
-        <b>Sobre Letícia:</b><br><br>
+        <b>Sobre Rayane:</b><br><br>
 
-        Letícia é estudante do Ensino Médio no IFPB Campus Itabaiana,
-        dedicada aos estudos e interessada em biologia. Ela concluirá o
-        ensino médio em 2026 e tem o desejo de cursar biomedicina
+        Rayane é estudante do Ensino Médio no IFPB Campus Itabaiana,
+        dedicada aos estudos e interessada em tecnologia.
 
         </div>
         """, unsafe_allow_html=True)
 
     st.link_button(
-        " Visitar Site do leticia alexandre",
-        "https://sites.google.com/academico.ifpb.edu.br/leticiaalexandre2informatica/in%C3%ADcio"
+        "🎬 Visitar Site da Netflix",
+        "https://www.netflix.com/br/"
     )
 
 # WHATSAPP
