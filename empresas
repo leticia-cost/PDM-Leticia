@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.set_page_config(page_title="Empresas Parceiras", layout="wide")
 
 st.title("Empresas Parceiras")
@@ -5,7 +7,7 @@ st.title("Empresas Parceiras")
 col1, col2, col3 = st.columns(3)
 
 # =========================
-# genshim Imapct
+# SPACEX
 # =========================
 with col1:
     st.image(
