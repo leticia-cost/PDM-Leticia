@@ -87,7 +87,7 @@ if zap_base64:
     st.markdown(f"""
     <div style="text-align:center; margin-top:30px;">
 
-        <a href="https://wa.me/5583996736206" target="_blank">
+        <a href="https://wa.me/55839673-6206" target="_blank">
 
             <img src="data:image/png;base64,{zap_base64}"
                  width="100">
